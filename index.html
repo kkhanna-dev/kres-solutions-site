@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>KRES Solutions</title>
+  <meta name="description" content="KRES Solutions builds custom software, EHR and FHIR integrations, revenue-cycle automation, and security tooling for healthcare teams. Marysville, WA.">
+  <meta name="theme-color" content="#0b4f52">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://kkhanna-dev.github.io/kres-solutions-site/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="KRES Solutions">
+  <meta property="og:description" content="Custom software, EHR integrations, and security for healthcare teams.">
+  <meta property="og:image" content="https://kkhanna-dev.github.io/kres-solutions-site/assets/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,650;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "KRES Solutions LLC",
+    "description": "Custom software, EHR and FHIR integrations, revenue-cycle automation, and security tooling for healthcare teams.",
+    "address": { "@type": "PostalAddress", "addressLocality": "Marysville", "addressRegion": "WA", "addressCountry": "US" },
+    "founder": [ { "@type": "Person", "name": "Kartik Khanna" }, { "@type": "Person", "name": "Rishi Khanna" } ],
+    "sameAs": [ "https://www.linkedin.com/company/kres-solutions" ],
+    "areaServed": "United States"
+  }
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav" id="nav">
+    <a class="brand" href="#top" aria-label="KRES Solutions home">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+        <rect width="40" height="40" rx="9" fill="#0b4f52"/>
+        <path d="M12 10h5v9.2L25.2 10h6.1l-9.1 9.6L32 30h-6.3l-6.6-8-2.1 2.2V30h-5z" fill="#ffffff"/>
+        <circle cx="30.5" cy="10.5" r="2.6" fill="#d9962b"/>
+      </svg>
+      <span class="brand-name">KRES<small>SOLUTIONS</small></span>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#process">How we work</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-cta">
+      <a class="btn btn-primary" href="#contact">Start a conversation</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Software &amp; security consultancy · Marysville, WA</p>
+          <h1>Software that fits how your clinic actually runs.</h1>
+          <p class="lede">KRES Solutions builds custom tools, EHR integrations, and revenue-cycle automation for healthcare teams. Security is part of the build from the first commit, not a checkbox at the end.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Book an intro call
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn-ghost" href="#services">See what we do</a>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <svg class="diagram" viewBox="0 0 520 400" role="img" aria-label="Diagram: clinic systems feeding a KRES-built integration layer that produces dashboards, automations, and an audit trail">
+            <defs>
+              <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+                <path d="M26 0H0V26" fill="none" class="grid"/>
+              </pattern>
+            </defs>
+            <rect width="520" height="400" fill="url(#grid)" opacity="0.55"/>
+
+            <!-- inputs -->
+            <g>
+              <rect class="node" x="18" y="52" width="150" height="58" rx="8"/>
+              <text class="label" x="34" y="78">EHR / Epic</text>
+              <text class="label-sub" x="34" y="96">FHIR R4 · HL7 v2</text>
+
+              <rect class="node" x="18" y="170" width="150" height="58" rx="8"/>
+              <text class="label" x="34" y="196">Practice systems</text>
+              <text class="label-sub" x="34" y="214">SCHEDULING · INTAKE</text>
+
+              <rect class="node" x="18" y="288" width="150" height="58" rx="8"/>
+              <text class="label" x="34" y="314">Claims &amp; billing</text>
+              <text class="label-sub" x="34" y="332">837 · 835 · ERA</text>
+            </g>
+
+            <!-- wires in -->
+            <path class="wire" d="M168 81 C 205 81, 205 199, 236 199"/>
+            <path class="wire" d="M168 199 L 236 199"/>
+            <path class="wire" d="M168 317 C 205 317, 205 199, 236 199"/>
+            <path class="wire-live" d="M168 81 C 205 81, 205 199, 236 199"/>
+            <path class="wire-live" d="M168 199 L 236 199"/>
+            <path class="wire-live" d="M168 317 C 205 317, 205 199, 236 199"/>
+
+            <!-- core -->
+            <rect class="node-core" x="236" y="150" width="120" height="98" rx="10"/>
+            <text class="label-core" x="252" y="184">KRES-built</text>
+            <text class="label-core" x="252" y="203">layer</text>
+            <text class="label-core-sub" x="252" y="228">VALIDATE · ROUTE · LOG</text>
+            <circle class="tick" cx="342" cy="164" r="4"/>
+
+            <!-- wires out -->
+            <path class="wire" d="M356 199 C 390 199, 390 81, 424 81"/>
+            <path class="wire" d="M356 199 L 424 199"/>
+            <path class="wire" d="M356 199 C 390 199, 390 317, 424 317"/>
+            <path class="wire-live" d="M356 199 C 390 199, 390 81, 424 81"/>
+            <path class="wire-live" d="M356 199 L 424 199"/>
+            <path class="wire-live" d="M356 199 C 390 199, 390 317, 424 317"/>
+
+            <!-- outputs -->
+            <g>
+              <rect class="node" x="424" y="52" width="82" height="58" rx="8"/>
+              <text class="label" x="438" y="78">Dashboards</text>
+              <text class="label-sub" x="438" y="96">LIVE</text>
+
+              <rect class="node" x="424" y="170" width="82" height="58" rx="8"/>
+              <text class="label" x="438" y="196">Automation</text>
+              <text class="label-sub" x="438" y="214">QUEUES</text>
+
+              <rect class="node" x="424" y="288" width="82" height="58" rx="8"/>
+              <text class="label" x="438" y="314">Audit trail</text>
+              <text class="label-sub" x="438" y="332">HIPAA</text>
+            </g>
+
+            <!-- caption -->
+            <text class="label-sub" x="18" y="384">EVERY HANDOFF VALIDATED, LOGGED, AND OWNED BY YOU.</text>
+          </svg>
+        </div>
+      </div>
+
+      <div class="proof">
+        <div><b>Epic &amp; FHIR</b><span>Integration experience</span></div>
+        <div><b>HIPAA-minded</b><span>Audit logging, access control</span></div>
+        <div><b>Azure &amp; CI/CD</b><span>Cloud delivery pipelines</span></div>
+        <div><b>Est. 2024</b><span>Washington LLC</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Who we work with -->
+  <section class="section" id="who">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Who we work with</p>
+        <h2>Small teams with real data, real rules, and no in-house engineering.</h2>
+      </div>
+      <div class="audience reveal">
+        <div>
+          <h3>Independent clinics and practices</h3>
+          <p>You run on an EHR that doesn't quite do what you need, so someone does it by hand every week. We build the missing piece and connect it properly.</p>
+        </div>
+        <div>
+          <h3>Health-tech startups</h3>
+          <p>You need an Epic or FHIR integration, a HIPAA-ready backend, or a security review before a customer's procurement team asks for one.</p>
+        </div>
+        <div>
+          <h3>Billing and RCM companies</h3>
+          <p>Claims, denials, and coding checks that still live in spreadsheets. We turn them into workflows with queues, rules, and a paper trail.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section" id="services">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Services</p>
+        <h2>Four things we do well.</h2>
+        <p class="lede">Every engagement is scoped to a fixed deliverable with a fixed price. You talk to the engineers doing the work, from the first call through handoff.</p>
+      </div>
+
+      <div class="services">
+        <article class="service reveal">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M14 5l-4 14"/></svg>
+          </div>
+          <h3>Custom software</h3>
+          <p>Internal tools, patient-facing portals, and back-office apps built around your workflow instead of the other way around.</p>
+          <ul>
+            <li>Intake, scheduling, and referral tracking tools</li>
+            <li>Reporting dashboards over your existing data</li>
+            <li>Replacing spreadsheet processes with real apps</li>
+          </ul>
+        </article>
+
+        <article class="service reveal">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="12" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="19" cy="18" r="2"/><path d="M7 12h5m0 0 5-5m-5 5 5 5"/></svg>
+          </div>
+          <h3>EHR and data integrations</h3>
+          <p>Get data in and out of Epic and other EHRs without a six-month vendor project. We've shipped FHIR integrations on production clinical platforms.</p>
+          <ul>
+            <li>FHIR R4 and HL7 v2 interfaces</li>
+            <li>Epic App Orchard–style app connections</li>
+            <li>Syncs between EHR, billing, and practice tools</li>
+          </ul>
+        </article>
+
+        <article class="service reveal">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h10M4 18h7"/><path d="m16 16 2 2 4-4"/></svg>
+          </div>
+          <h3>Revenue-cycle automation</h3>
+          <p>Fewer denied claims and less rework. We build rules engines and queues that catch coding and eligibility problems before a claim goes out.</p>
+          <ul>
+            <li>Pre-submission claim scrubbing and coding checks</li>
+            <li>Denial tracking and appeal workflows</li>
+            <li>837/835 parsing and reconciliation reports</li>
+          </ul>
+        </article>
+
+        <article class="service reveal">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 4.5 3.4 8 8 9 4.6-1 8-4.5 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg>
+          </div>
+          <h3>Security and compliance</h3>
+          <p>Practical security for teams that handle PHI. We'll tell you what actually matters for your size and fix it, rather than hand you a 90-page report.</p>
+          <ul>
+            <li>HIPAA readiness reviews and gap fixes</li>
+            <li>Audit logging, access control, and secrets handling</li>
+            <li>Phishing-awareness tooling and staff training</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section" id="process">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">How we work</p>
+        <h2>Small scope, weekly demos, clean handoff.</h2>
+        <p class="lede">We'd rather ship a useful first version in four weeks than plan a perfect one for four months.</p>
+      </div>
+
+      <ol class="process" style="list-style:none; margin:0; padding:0;">
+        <li class="step reveal">
+          <span class="step-num">STEP 1</span>
+          <h3>Scope</h3>
+          <p>A 45-minute call about the problem, then a one-page plan: what we'll build, what it costs, and when it lands.</p>
+          <small>No charge</small>
+        </li>
+        <li class="step reveal">
+          <span class="step-num">STEP 2</span>
+          <h3>Build</h3>
+          <p>You see working software every week, not a status slide. Changes in direction get made early while they're cheap.</p>
+          <small>Weekly demos</small>
+        </li>
+        <li class="step reveal">
+          <span class="step-num">STEP 3</span>
+          <h3>Harden</h3>
+          <p>Threat model, access review, audit logging, and backups. This is where most small vendors stop; it's where we spend extra time.</p>
+          <small>Security pass</small>
+        </li>
+        <li class="step reveal">
+          <span class="step-num">STEP 4</span>
+          <h3>Hand off</h3>
+          <p>You own the code and the infrastructure. We document it, train your team, and stay available on a light support plan if you want one.</p>
+          <small>You own everything</small>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section" id="experience">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Experience</p>
+        <h2>Work the team has shipped.</h2>
+        <p class="lede">A mix of KRES projects and engagements our engineers delivered inside healthcare and enterprise teams.</p>
+      </div>
+
+      <div class="exp-grid">
+        <div class="exp-list">
+          <article class="exp reveal">
+            <span class="exp-tag">Product</span>
+            <div>
+              <h3>Phish Catch AI</h3>
+              <p>A Chrome extension that flags phishing pages and suspicious links as you browse. Built and maintained by KRES, with an active user base that grows by word of mouth.</p>
+              <span class="pill">50+ active users</span>
+            </div>
+          </article>
+          <article class="exp reveal">
+            <span class="exp-tag">Integration</span>
+            <div>
+              <h3>FHIR / Epic integration for a clinical platform</h3>
+              <p>Full-stack work connecting a clinical product to Epic through FHIR, with Azure CI/CD pipelines so releases went out the same day they were approved.</p>
+            </div>
+          </article>
+          <article class="exp reveal">
+            <span class="exp-tag">Security</span>
+            <div>
+              <h3>HIPAA audit logging for a health-AI startup</h3>
+              <p>Backend audit logging that records who accessed what and when, backed by a Playwright test suite so compliance behavior didn't regress with each release.</p>
+            </div>
+          </article>
+          <article class="exp reveal">
+            <span class="exp-tag">Identity</span>
+            <div>
+              <h3>Customer identity at enterprise scale</h3>
+              <p>Engineering on a large customer identity and access management platform, including an automated global IP allowlist sync service. The same access-control thinking applies to a 12-person clinic.</p>
+            </div>
+          </article>
+          <article class="exp reveal">
+            <span class="exp-tag">Open source</span>
+            <div>
+              <h3>Contributions to ChromaDB</h3>
+              <p>Merged pull request to the open-source vector database used widely in AI applications. We use and contribute to the tools we build with.</p>
+            </div>
+          </article>
+        </div>
+
+        <aside class="stack reveal">
+          <h3>What we build with</h3>
+          <div class="stack-group">
+            <b>Healthcare</b>
+            <div class="chips"><span class="chip">FHIR R4</span><span class="chip">HL7 v2</span><span class="chip">Epic</span><span class="chip">X12 837/835</span><span class="chip">HIPAA</span></div>
+          </div>
+          <div class="stack-group">
+            <b>Application</b>
+            <div class="chips"><span class="chip">TypeScript</span><span class="chip">Python</span><span class="chip">Java</span><span class="chip">React</span><span class="chip">Node</span><span class="chip">PostgreSQL</span></div>
+          </div>
+          <div class="stack-group">
+            <b>Cloud &amp; delivery</b>
+            <div class="chips"><span class="chip">Azure</span><span class="chip">AWS</span><span class="chip">Docker</span><span class="chip">GitHub Actions</span><span class="chip">Playwright</span></div>
+          </div>
+          <div class="stack-group">
+            <b>Security</b>
+            <div class="chips"><span class="chip">Threat modeling</span><span class="chip">Audit logging</span><span class="chip">OAuth / OIDC</span><span class="chip">Digital forensics</span></div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <div class="about-grid">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>A two-founder shop in Snohomish County.</h2>
+          <p class="lede" style="margin-top:18px">KRES Solutions is a Washington LLC based in Marysville. We keep the company small on purpose: the people you meet on the first call are the people writing the code. That means less overhead, quicker answers, and no account manager between you and the work.</p>
+          <div class="values">
+            <div><b>Fixed scope, fixed price</b><p>You know the cost before we start. If the scope changes, the price changes in writing first.</p></div>
+            <div><b>You own the result</b><p>Source code, cloud accounts, and documentation are yours. No lock-in, no hostage licensing.</p></div>
+            <div><b>Security by default</b><p>Our engineering lead comes from a security background. PHI handling, access control, and logging are built in from day one.</p></div>
+          </div>
+        </div>
+
+        <div class="founders">
+          <article class="founder reveal">
+            <div class="avatar" aria-hidden="true">KK</div>
+            <div>
+              <h3>Kartik Khanna</h3>
+              <div class="role">Co-founder · Engineering</div>
+              <p>Software engineer with a focus on identity, access management, and healthcare integrations. Has shipped FHIR/Epic integrations, HIPAA audit logging, and CIAM services at enterprise scale. Computer science at the University of Washington with a cybersecurity concentration; Google Cybersecurity, IBM Digital Forensics, and Azure Fundamentals certified.</p>
+              <div class="links">
+                <a href="https://www.linkedin.com/in/kartikk1" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://github.com/kkhanna-dev" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+          <article class="founder reveal">
+            <div class="avatar" aria-hidden="true">RK</div>
+            <div>
+              <h3>Rishi Khanna</h3>
+              <div class="role">Co-founder</div>
+              <p>Co-founder and governor of KRES Solutions LLC. Leads client relationships, scoping, and delivery so projects start with a clear plan and finish on the date we agreed to.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section contact" id="contact">
+    <div class="wrap">
+      <div class="contact-grid">
+        <div class="contact-side">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Tell us what's slowing your team down.</h2>
+            <p class="lede" style="margin-top:18px">We'll reply within one business day with a few questions or a time to talk. No sales deck.</p>
+          </div>
+          <div class="contact-line">
+            <b>Email</b>
+            <div class="val"><span id="email-text">kkhanna.dev@gmail.com</span><button class="copy-btn" type="button" data-copy="kkhanna.dev@gmail.com">copy</button></div>
+          </div>
+          <div class="contact-line">
+            <b>LinkedIn</b>
+            <div class="val"><a href="https://www.linkedin.com/company/kres-solutions" target="_blank" rel="noopener">linkedin.com/company/kres-solutions</a></div>
+          </div>
+          <div class="contact-line">
+            <b>Based in</b>
+            <div class="val">Marysville, Washington · working with teams across the US</div>
+          </div>
+        </div>
+
+        <form class="form" id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="field">
+              <label for="f-name">Name</label>
+              <input id="f-name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="f-org">Organization</label>
+              <input id="f-org" name="org" type="text" autocomplete="organization">
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-email">Work email</label>
+            <input id="f-email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="f-type">What do you need?</label>
+            <select id="f-type" name="type">
+              <option>Custom software</option>
+              <option>EHR or data integration</option>
+              <option>Revenue-cycle automation</option>
+              <option>Security or HIPAA review</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-msg">A few sentences about the problem</label>
+            <textarea id="f-msg" name="message" required placeholder="What's the manual step, the system that won't talk to the other one, or the review you need done?"></textarea>
+          </div>
+          <div class="form-foot">
+            <small>We don't share your details and we won't add you to a list.</small>
+            <button class="btn btn-primary" type="submit">Send message</button>
+          </div>
+          <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>© <span id="year">2026</span> KRES Solutions LLC · Marysville, WA</div>
+    <ul class="footer-links">
+      <li><a href="https://www.linkedin.com/company/kres-solutions" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://github.com/kkhanna-dev" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="#top">Back to top</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
