@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>KRES Solutions</title>
-  <meta name="description" content="KRES Solutions builds custom software, EHR and FHIR integrations, revenue-cycle automation, and security tooling for healthcare teams. Marysville, WA.">
+  <meta name="description" content="KRES Solutions helps startups get security and compliance in place before customers ask, then builds the systems that help them grow. SOC 2 readiness, cloud security, security reviews, and growth engineering.">
   <meta name="theme-color" content="#0b4f52">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="canonical" href="https://kressolutions.com/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="KRES Solutions">
-  <meta property="og:description" content="Custom software, EHR integrations, and security for healthcare teams.">
+  <meta property="og:description" content="Security and growth for startups. Close bigger deals without stalling on the security review.">
   <meta property="og:image" content="https://kressolutions.com/assets/og.png">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,9 +22,10 @@
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "KRES Solutions LLC",
-    "description": "Custom software, EHR and FHIR integrations, revenue-cycle automation, and security tooling for healthcare teams.",
+    "url": "https://kressolutions.com/",
+    "email": "info@kressolutions.com",
+    "description": "Security, compliance readiness, and growth engineering for startups.",
     "address": { "@type": "PostalAddress", "addressLocality": "Marysville", "addressRegion": "WA", "addressCountry": "US" },
-    "founder": [ { "@type": "Person", "name": "Kartik Khanna" }, { "@type": "Person", "name": "Rishi Khanna" } ],
     "sameAs": [ "https://www.linkedin.com/company/kres-solutions" ],
     "areaServed": "United States"
   }
@@ -45,14 +46,14 @@
 
     <ul class="nav-links">
       <li><a href="#services">Services</a></li>
+      <li><a href="#engagements">Engagements</a></li>
       <li><a href="#process">How we work</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#about">About</a></li>
+      <li><a href="#faq">FAQ</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
 
     <div class="nav-cta">
-      <a class="btn btn-primary" href="#contact">Start a conversation</a>
+      <a class="btn btn-primary" href="#contact">Book a call</a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Open menu">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
       </button>
@@ -67,19 +68,19 @@
     <div class="wrap">
       <div class="hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">Software &amp; security consultancy · Marysville, WA</p>
-          <h1>Software that fits how your clinic actually runs.</h1>
-          <p class="lede">KRES Solutions builds custom tools, EHR integrations, and revenue-cycle automation for healthcare teams. Security is part of the build from the first commit, not a checkbox at the end.</p>
+          <p class="eyebrow">Security &amp; growth for startups</p>
+          <h1>Close bigger deals without stalling on security.</h1>
+          <p class="lede">KRES Solutions gets early-stage companies ready for the security review before a customer asks for it. Then we build the systems that help you grow past it.</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#contact">Book an intro call
+            <a class="btn btn-primary" href="#contact">Book a free assessment
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
             <a class="btn btn-ghost" href="#services">See what we do</a>
           </div>
         </div>
 
-        <div class="hero-art" aria-hidden="true">
-          <svg class="diagram" viewBox="0 0 520 400" role="img" aria-label="Diagram: clinic systems feeding a KRES-built integration layer that produces dashboards, automations, and an audit trail">
+        <div class="hero-art">
+          <svg class="diagram" viewBox="0 0 520 400" role="img" aria-label="A startup growth curve with the security work KRES handles at each stage: MFA and backups at MVP, policies and SSO at first customers, a SOC 2 report at the first enterprise deal, and monitoring at scale.">
             <defs>
               <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
                 <path d="M26 0H0V26" fill="none" class="grid"/>
@@ -87,69 +88,49 @@
             </defs>
             <rect width="520" height="400" fill="url(#grid)" opacity="0.55"/>
 
-            <!-- inputs -->
-            <g>
-              <rect class="node" x="18" y="52" width="150" height="58" rx="8"/>
-              <text class="label" x="34" y="78">EHR / Epic</text>
-              <text class="label-sub" x="34" y="96">FHIR R4 · HL7 v2</text>
+            <text class="label-sub" x="30" y="30">REVENUE</text>
+            <text class="label-sub" x="500" y="330" text-anchor="end">STAGE →</text>
+            <line class="axis" x1="30" y1="340" x2="500" y2="340"/>
 
-              <rect class="node" x="18" y="170" width="150" height="58" rx="8"/>
-              <text class="label" x="34" y="196">Practice systems</text>
-              <text class="label-sub" x="34" y="214">SCHEDULING · INTAKE</text>
+            <!-- area + curve -->
+            <path class="area" d="M30 312 C 55 308, 70 303, 90 298 C 130 288, 160 278, 190 265 S 280 225, 320 195 S 410 130, 450 95 S 490 58, 500 52 L 500 340 L 30 340 Z"/>
+            <path class="curve" d="M30 312 C 55 308, 70 303, 90 298 C 130 288, 160 278, 190 265 S 280 225, 320 195 S 410 130, 450 95 S 490 58, 500 52"/>
 
-              <rect class="node" x="18" y="288" width="150" height="58" rx="8"/>
-              <text class="label" x="34" y="314">Claims &amp; billing</text>
-              <text class="label-sub" x="34" y="332">837 · 835 · ERA</text>
-            </g>
+            <!-- guides -->
+            <line class="guide" x1="90" y1="298" x2="90" y2="340"/>
+            <line class="guide" x1="190" y1="265" x2="190" y2="340"/>
+            <line class="guide" x1="320" y1="195" x2="320" y2="340"/>
+            <line class="guide" x1="450" y1="95" x2="450" y2="340"/>
 
-            <!-- wires in -->
-            <path class="wire" d="M168 81 C 205 81, 205 199, 236 199"/>
-            <path class="wire" d="M168 199 L 236 199"/>
-            <path class="wire" d="M168 317 C 205 317, 205 199, 236 199"/>
-            <path class="wire-live" d="M168 81 C 205 81, 205 199, 236 199"/>
-            <path class="wire-live" d="M168 199 L 236 199"/>
-            <path class="wire-live" d="M168 317 C 205 317, 205 199, 236 199"/>
+            <!-- milestones -->
+            <circle class="pt" cx="90" cy="298" r="5"/>
+            <circle class="pt" cx="190" cy="265" r="5"/>
+            <circle class="pt pt-key" cx="320" cy="195" r="7"/>
+            <circle class="pt" cx="450" cy="95" r="5"/>
 
-            <!-- core -->
-            <rect class="node-core" x="236" y="150" width="120" height="98" rx="10"/>
-            <text class="label-core" x="252" y="184">KRES-built</text>
-            <text class="label-core" x="252" y="203">layer</text>
-            <text class="label-core-sub" x="252" y="228">VALIDATE · ROUTE · LOG</text>
-            <circle class="tick" cx="342" cy="164" r="4"/>
+            <!-- callout -->
+            <line class="wire" x1="320" y1="152" x2="320" y2="186"/>
+            <rect class="node-core" x="164" y="102" width="186" height="50" rx="8"/>
+            <text class="label-core" x="180" y="124">Security review passed</text>
+            <text class="label-core-sub" x="180" y="141">SOC 2 · DEAL SIGNED</text>
 
-            <!-- wires out -->
-            <path class="wire" d="M356 199 C 390 199, 390 81, 424 81"/>
-            <path class="wire" d="M356 199 L 424 199"/>
-            <path class="wire" d="M356 199 C 390 199, 390 317, 424 317"/>
-            <path class="wire-live" d="M356 199 C 390 199, 390 81, 424 81"/>
-            <path class="wire-live" d="M356 199 L 424 199"/>
-            <path class="wire-live" d="M356 199 C 390 199, 390 317, 424 317"/>
-
-            <!-- outputs -->
-            <g>
-              <rect class="node" x="424" y="52" width="82" height="58" rx="8"/>
-              <text class="label" x="438" y="78">Dashboards</text>
-              <text class="label-sub" x="438" y="96">LIVE</text>
-
-              <rect class="node" x="424" y="170" width="82" height="58" rx="8"/>
-              <text class="label" x="438" y="196">Automation</text>
-              <text class="label-sub" x="438" y="214">QUEUES</text>
-
-              <rect class="node" x="424" y="288" width="82" height="58" rx="8"/>
-              <text class="label" x="438" y="314">Audit trail</text>
-              <text class="label-sub" x="438" y="332">HIPAA</text>
-            </g>
-
-            <!-- caption -->
-            <text class="label-sub" x="18" y="384">EVERY HANDOFF VALIDATED, LOGGED, AND OWNED BY YOU.</text>
+            <!-- stage labels -->
+            <text class="label" x="90" y="362" text-anchor="middle">MVP</text>
+            <text class="label" x="190" y="362" text-anchor="middle">First customers</text>
+            <text class="label" x="320" y="362" text-anchor="middle">Enterprise deal</text>
+            <text class="label" x="450" y="362" text-anchor="middle">Scale</text>
+            <text class="label-sub" x="90" y="380" text-anchor="middle">MFA · BACKUPS</text>
+            <text class="label-sub" x="190" y="380" text-anchor="middle">POLICIES · SSO</text>
+            <text class="label-sub" x="320" y="380" text-anchor="middle">SOC 2 REPORT</text>
+            <text class="label-sub" x="450" y="380" text-anchor="middle">MONITORING</text>
           </svg>
         </div>
       </div>
 
       <div class="proof">
-        <div><b>Epic &amp; FHIR</b><span>Integration experience</span></div>
-        <div><b>HIPAA-minded</b><span>Audit logging, access control</span></div>
-        <div><b>Azure &amp; CI/CD</b><span>Cloud delivery pipelines</span></div>
+        <div><b>SOC 2 &amp; ISO 27001</b><span>Readiness and audit prep</span></div>
+        <div><b>AWS · Azure · GCP</b><span>Cloud security reviews</span></div>
+        <div><b>Fixed scope</b><span>Price agreed before we start</span></div>
         <div><b>Est. 2024</b><span>Washington LLC</span></div>
       </div>
     </div>
@@ -160,20 +141,24 @@
     <div class="wrap">
       <div class="section-head">
         <p class="eyebrow">Who we work with</p>
-        <h2>Small teams with real data, real rules, and no in-house engineering.</h2>
+        <h2>Startups whose growth has outpaced their security.</h2>
+        <p class="lede">Most founders don't think about security until a customer sends a 200-question spreadsheet. We help at whatever stage you're in.</p>
       </div>
       <div class="audience reveal">
         <div>
-          <h3>Independent clinics and practices</h3>
-          <p>You run on an EHR that doesn't quite do what you need, so someone does it by hand every week. We build the missing piece and connect it properly.</p>
+          <span class="stage">PRE-SEED TO SEED</span>
+          <h3>Building the first version</h3>
+          <p>Set up the basics once, correctly: accounts, access, backups, and secrets. It costs a few days now and saves months of cleanup later.</p>
         </div>
         <div>
-          <h3>Health-tech startups</h3>
-          <p>You need an Epic or FHIR integration, a HIPAA-ready backend, or a security review before a customer's procurement team asks for one.</p>
+          <span class="stage">SEED TO SERIES A</span>
+          <h3>Selling to bigger customers</h3>
+          <p>Your first enterprise prospect wants a SOC 2 report and a completed security questionnaire. We get you there without pulling engineers off the roadmap.</p>
         </div>
         <div>
-          <h3>Billing and RCM companies</h3>
-          <p>Claims, denials, and coding checks that still live in spreadsheets. We turn them into workflows with queues, rules, and a paper trail.</p>
+          <span class="stage">SERIES A AND BEYOND</span>
+          <h3>Scaling the team and the product</h3>
+          <p>More people, more systems, more customer data. We keep security and operations in step with growth until you're ready to hire in-house.</p>
         </div>
       </div>
     </div>
@@ -184,34 +169,34 @@
     <div class="wrap">
       <div class="section-head">
         <p class="eyebrow">Services</p>
-        <h2>Four things we do well.</h2>
-        <p class="lede">Every engagement is scoped to a fixed deliverable with a fixed price. You talk to the engineers doing the work, from the first call through handoff.</p>
+        <h2>Security that unblocks sales. Systems that support growth.</h2>
+        <p class="lede">Every engagement has a fixed deliverable and a fixed price. You work directly with the people doing the work.</p>
       </div>
 
       <div class="services">
         <article class="service reveal">
           <div class="service-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M14 5l-4 14"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 4.5 3.4 8 8 9 4.6-1 8-4.5 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg>
           </div>
-          <h3>Custom software</h3>
-          <p>Internal tools, patient-facing portals, and back-office apps built around your workflow instead of the other way around.</p>
+          <h3>Security foundations</h3>
+          <p>The controls every startup should have before it has customers' data. We set them up in your existing cloud and tools.</p>
           <ul>
-            <li>Intake, scheduling, and referral tracking tools</li>
-            <li>Reporting dashboards over your existing data</li>
-            <li>Replacing spreadsheet processes with real apps</li>
+            <li>Cloud security review and hardening (AWS, Azure, GCP)</li>
+            <li>SSO, MFA, and least-privilege access</li>
+            <li>Secrets management, logging, and backups</li>
           </ul>
         </article>
 
         <article class="service reveal">
           <div class="service-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="12" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="19" cy="18" r="2"/><path d="M7 12h5m0 0 5-5m-5 5 5 5"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h3"/></svg>
           </div>
-          <h3>EHR and data integrations</h3>
-          <p>Get data in and out of Epic and other EHRs without a six-month vendor project. We've shipped FHIR integrations on production clinical platforms.</p>
+          <h3>Compliance readiness</h3>
+          <p>Get audit-ready for SOC 2 or ISO 27001 without hiring a compliance team. We write the policies, close the gaps, and hand a clean package to your auditor.</p>
           <ul>
-            <li>FHIR R4 and HL7 v2 interfaces</li>
-            <li>Epic App Orchard–style app connections</li>
-            <li>Syncs between EHR, billing, and practice tools</li>
+            <li>Gap assessment against the framework</li>
+            <li>Policies, procedures, and evidence collection</li>
+            <li>Compliance platform setup and auditor coordination</li>
           </ul>
         </article>
 
@@ -219,25 +204,77 @@
           <div class="service-icon" aria-hidden="true">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h10M4 18h7"/><path d="m16 16 2 2 4-4"/></svg>
           </div>
-          <h3>Revenue-cycle automation</h3>
-          <p>Fewer denied claims and less rework. We build rules engines and queues that catch coding and eligibility problems before a claim goes out.</p>
+          <h3>Security reviews for sales</h3>
+          <p>When a prospect's security team sends questions, we answer them accurately and quickly so the deal keeps moving.</p>
           <ul>
-            <li>Pre-submission claim scrubbing and coding checks</li>
-            <li>Denial tracking and appeal workflows</li>
-            <li>837/835 parsing and reconciliation reports</li>
+            <li>Security questionnaire responses</li>
+            <li>Public trust page and security documentation</li>
+            <li>Penetration test scoping and remediation</li>
           </ul>
         </article>
 
         <article class="service reveal">
           <div class="service-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 4.5 3.4 8 8 9 4.6-1 8-4.5 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V5M4 19h16"/><path d="m7 15 4-4 3 3 6-6"/><path d="M16 8h4v4"/></svg>
           </div>
-          <h3>Security and compliance</h3>
-          <p>Practical security for teams that handle PHI. We'll tell you what actually matters for your size and fix it, rather than hand you a 90-page report.</p>
+          <h3>Growth engineering</h3>
+          <p>The technical work behind growth: products, integrations, and the internal systems your team runs on every day.</p>
           <ul>
-            <li>HIPAA readiness reviews and gap fixes</li>
-            <li>Audit logging, access control, and secrets handling</li>
-            <li>Phishing-awareness tooling and staff training</li>
+            <li>MVPs, customer portals, and internal tools</li>
+            <li>CRM, billing, and sales pipeline automation</li>
+            <li>Analytics dashboards and reporting</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Engagements -->
+  <section class="section" id="engagements">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Engagements</p>
+        <h2>Pick the shape that fits where you are.</h2>
+      </div>
+
+      <div class="plans">
+        <article class="plan reveal">
+          <div class="plan-top">
+            <h3>Security Sprint</h3>
+            <span class="plan-len">2–3 weeks</span>
+          </div>
+          <p>A focused review of your cloud, code, and accounts, followed by fixing the highest-risk issues. You finish with a written report you can share with customers.</p>
+          <ul>
+            <li>Risk assessment and prioritized findings</li>
+            <li>Top issues fixed, not just listed</li>
+            <li>Customer-ready security summary</li>
+          </ul>
+        </article>
+
+        <article class="plan plan-featured reveal">
+          <div class="plan-top">
+            <h3>Audit Readiness</h3>
+            <span class="plan-len">8–12 weeks</span>
+          </div>
+          <p>Everything between "we need SOC 2" and "the auditor is here." Built for teams with an enterprise deal on the line.</p>
+          <ul>
+            <li>Gap assessment and remediation plan</li>
+            <li>Policies, controls, and evidence in place</li>
+            <li>Support through the audit itself</li>
+          </ul>
+          <span class="plan-tag">Most requested</span>
+        </article>
+
+        <article class="plan reveal">
+          <div class="plan-top">
+            <h3>Fractional Partner</h3>
+            <span class="plan-len">Monthly</span>
+          </div>
+          <p>An ongoing security and technical lead for companies that aren't ready for a full-time hire. Scoped by the month; cancel anytime.</p>
+          <ul>
+            <li>Questionnaires and customer reviews handled</li>
+            <li>Access reviews and continuous monitoring</li>
+            <li>Growth engineering hours included</li>
           </ul>
         </article>
       </div>
@@ -249,108 +286,36 @@
     <div class="wrap">
       <div class="section-head">
         <p class="eyebrow">How we work</p>
-        <h2>Small scope, weekly demos, clean handoff.</h2>
-        <p class="lede">We'd rather ship a useful first version in four weeks than plan a perfect one for four months.</p>
+        <h2>Small scope, weekly progress, clean handoff.</h2>
+        <p class="lede">We'd rather fix your five biggest risks this month than write a 90-page report nobody reads.</p>
       </div>
 
-      <ol class="process" style="list-style:none; margin:0; padding:0;">
+      <ol class="process">
         <li class="step reveal">
           <span class="step-num">STEP 1</span>
-          <h3>Scope</h3>
-          <p>A 45-minute call about the problem, then a one-page plan: what we'll build, what it costs, and when it lands.</p>
-          <small>No charge</small>
+          <h3>Assess</h3>
+          <p>A 45-minute call and a quick look at your setup. You leave with a short list of what matters most, whether or not you hire us.</p>
+          <small>Free</small>
         </li>
         <li class="step reveal">
           <span class="step-num">STEP 2</span>
-          <h3>Build</h3>
-          <p>You see working software every week, not a status slide. Changes in direction get made early while they're cheap.</p>
-          <small>Weekly demos</small>
+          <h3>Plan</h3>
+          <p>A one-page proposal: what we'll do, what it costs, and when it's done. The price doesn't change unless the scope does, in writing.</p>
+          <small>Fixed price</small>
         </li>
         <li class="step reveal">
           <span class="step-num">STEP 3</span>
-          <h3>Harden</h3>
-          <p>Threat model, access review, audit logging, and backups. This is where most small vendors stop; it's where we spend extra time.</p>
-          <small>Security pass</small>
+          <h3>Build</h3>
+          <p>We do the work inside your accounts and tools, and you see progress every week. Your engineers stay on the product.</p>
+          <small>Weekly updates</small>
         </li>
         <li class="step reveal">
           <span class="step-num">STEP 4</span>
           <h3>Hand off</h3>
-          <p>You own the code and the infrastructure. We document it, train your team, and stay available on a light support plan if you want one.</p>
-          <small>You own everything</small>
+          <p>You own everything we set up. We document it and train your team, and we stay on call if you want ongoing help.</p>
+          <small>No lock-in</small>
         </li>
       </ol>
-    </div>
-  </section>
-
-  <!-- Experience -->
-  <section class="section" id="experience">
-    <div class="wrap">
-      <div class="section-head">
-        <p class="eyebrow">Experience</p>
-        <h2>Work the team has shipped.</h2>
-        <p class="lede">A mix of KRES projects and engagements our engineers delivered inside healthcare and enterprise teams.</p>
-      </div>
-
-      <div class="exp-grid">
-        <div class="exp-list">
-          <article class="exp reveal">
-            <span class="exp-tag">Product</span>
-            <div>
-              <h3>Phish Catch AI</h3>
-              <p>A Chrome extension that flags phishing pages and suspicious links as you browse. Built and maintained by KRES, with an active user base that grows by word of mouth.</p>
-              <span class="pill">50+ active users</span>
-            </div>
-          </article>
-          <article class="exp reveal">
-            <span class="exp-tag">Integration</span>
-            <div>
-              <h3>FHIR / Epic integration for a clinical platform</h3>
-              <p>Full-stack work connecting a clinical product to Epic through FHIR, with Azure CI/CD pipelines so releases went out the same day they were approved.</p>
-            </div>
-          </article>
-          <article class="exp reveal">
-            <span class="exp-tag">Security</span>
-            <div>
-              <h3>HIPAA audit logging for a health-AI startup</h3>
-              <p>Backend audit logging that records who accessed what and when, backed by a Playwright test suite so compliance behavior didn't regress with each release.</p>
-            </div>
-          </article>
-          <article class="exp reveal">
-            <span class="exp-tag">Identity</span>
-            <div>
-              <h3>Customer identity at enterprise scale</h3>
-              <p>Engineering on a large customer identity and access management platform, including an automated global IP allowlist sync service. The same access-control thinking applies to a 12-person clinic.</p>
-            </div>
-          </article>
-          <article class="exp reveal">
-            <span class="exp-tag">Open source</span>
-            <div>
-              <h3>Contributions to ChromaDB</h3>
-              <p>Merged pull request to the open-source vector database used widely in AI applications. We use and contribute to the tools we build with.</p>
-            </div>
-          </article>
-        </div>
-
-        <aside class="stack reveal">
-          <h3>What we build with</h3>
-          <div class="stack-group">
-            <b>Healthcare</b>
-            <div class="chips"><span class="chip">FHIR R4</span><span class="chip">HL7 v2</span><span class="chip">Epic</span><span class="chip">X12 837/835</span><span class="chip">HIPAA</span></div>
-          </div>
-          <div class="stack-group">
-            <b>Application</b>
-            <div class="chips"><span class="chip">TypeScript</span><span class="chip">Python</span><span class="chip">Java</span><span class="chip">React</span><span class="chip">Node</span><span class="chip">PostgreSQL</span></div>
-          </div>
-          <div class="stack-group">
-            <b>Cloud &amp; delivery</b>
-            <div class="chips"><span class="chip">Azure</span><span class="chip">AWS</span><span class="chip">Docker</span><span class="chip">GitHub Actions</span><span class="chip">Playwright</span></div>
-          </div>
-          <div class="stack-group">
-            <b>Security</b>
-            <div class="chips"><span class="chip">Threat modeling</span><span class="chip">Audit logging</span><span class="chip">OAuth / OIDC</span><span class="chip">Digital forensics</span></div>
-          </div>
-        </aside>
-      </div>
     </div>
   </section>
 
@@ -360,40 +325,66 @@
       <div class="about-grid">
         <div>
           <p class="eyebrow">About</p>
-          <h2>A two-founder shop in Snohomish County.</h2>
-          <p class="lede" style="margin-top:18px">KRES Solutions is a Washington LLC based in Marysville. We keep the company small on purpose: the people you meet on the first call are the people writing the code. That means less overhead, quicker answers, and no account manager between you and the work.</p>
-          <div class="values">
-            <div><b>Fixed scope, fixed price</b><p>You know the cost before we start. If the scope changes, the price changes in writing first.</p></div>
-            <div><b>You own the result</b><p>Source code, cloud accounts, and documentation are yours. No lock-in, no hostage licensing.</p></div>
-            <div><b>Security by default</b><p>Our engineering lead comes from a security background. PHI handling, access control, and logging are built in from day one.</p></div>
+          <h2>A small firm on purpose.</h2>
+          <p class="lede" style="margin-top:18px">KRES Solutions is a Washington-based consultancy founded in 2024. We combine enterprise security and engineering experience with a startup's need to keep moving. There are no account managers or junior handoffs. The people on your first call are the people doing the work.</p>
+          <div class="leaders">
+            <div class="leader">
+              <div class="avatar" aria-hidden="true">KK</div>
+              <div>
+                <b>Kartik Khanna</b>
+                <span>Co-founder · Engineering &amp; Security</span>
+              </div>
+              <a href="https://www.linkedin.com/in/kartikk1" target="_blank" rel="noopener" aria-label="Kartik Khanna on LinkedIn">LinkedIn</a>
+            </div>
+            <div class="leader">
+              <div class="avatar" aria-hidden="true">RK</div>
+              <div>
+                <b>Rishi Khanna</b>
+                <span>Co-founder · Client Strategy &amp; Growth</span>
+              </div>
+              <a href="https://www.linkedin.com/in/rishi-khanna-9592388/" target="_blank" rel="noopener" aria-label="Rishi Khanna on LinkedIn">LinkedIn</a>
+            </div>
           </div>
         </div>
 
-        <div class="founders">
-          <article class="founder reveal">
-            <div class="avatar" aria-hidden="true">KK</div>
-            <div>
-              <h3>Kartik Khanna</h3>
-              <div class="role">Co-founder · Engineering</div>
-              <p>Software engineer with a focus on identity, access management, and healthcare integrations. Has shipped FHIR/Epic integrations, HIPAA audit logging, and CIAM services at enterprise scale. Computer science at the University of Washington with a cybersecurity concentration; Google Cybersecurity, IBM Digital Forensics, and Azure Fundamentals certified.</p>
-              <div class="links">
-                <a href="https://www.linkedin.com/in/kartikk1" target="_blank" rel="noopener">LinkedIn</a>
-                <a href="https://github.com/kkhanna-dev" target="_blank" rel="noopener">GitHub</a>
-              </div>
-            </div>
-          </article>
-          <article class="founder reveal">
-            <div class="avatar" aria-hidden="true">RK</div>
-            <div>
-              <h3>Rishi Khanna</h3>
-              <div class="role">Co-founder · Client strategy</div>
-              <p>More than two decades in enterprise IT. He spent over 15 years at Tata Consultancy Services as a program manager and client partner, then led sales and business management at Xoriant and Persistent Systems. He also ran SRE and monitoring operations at Premera Blue Cross, so he knows healthcare IT from the inside. Executive MBA from IIM Lucknow. At KRES he owns client relationships and scoping, and keeps every project on the date we agreed to.</p>
-              <div class="links">
-                <a href="https://www.linkedin.com/in/rishi-khanna-9592388/" target="_blank" rel="noopener">LinkedIn</a>
-              </div>
-            </div>
-          </article>
+        <div class="values">
+          <div><b>Fixed scope, fixed price</b><p>You know the cost before we start. No hourly meters running in the background.</p></div>
+          <div><b>Fix, don't just flag</b><p>A list of problems isn't a deliverable. We close the gaps we find.</p></div>
+          <div><b>You own the result</b><p>Accounts, code, policies, and documentation stay with you. No proprietary tools you have to keep paying for.</p></div>
+          <div><b>Security that fits your size</b><p>A 10-person startup doesn't need a bank's security program. We build what your stage and your customers actually require.</p></div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">FAQ</p>
+        <h2>Questions founders ask us first.</h2>
+      </div>
+      <div class="faq">
+        <details class="reveal">
+          <summary>Do we actually need SOC 2?</summary>
+          <p>Only if your customers ask for it. That usually starts when you sell to mid-market or enterprise companies. If nobody has asked yet, a Security Sprint and a clear security summary will cover most early deals and save you the audit cost for now.</p>
+        </details>
+        <details class="reveal">
+          <summary>How long does SOC 2 take?</summary>
+          <p>Getting ready usually takes two to three months. A Type I report can follow soon after. A Type II report needs an observation period, typically three to twelve months, where your controls run and get tested. We help you pick the path that matches your sales timeline.</p>
+        </details>
+        <details class="reveal">
+          <summary>Can you replace a full-time security hire?</summary>
+          <p>For most startups under about 50 people, yes. Our Fractional Partner engagement covers what an early security hire would do, at a fraction of the cost. When you're ready to hire in-house, we help you find and onboard that person.</p>
+        </details>
+        <details class="reveal">
+          <summary>Do you work with our existing tools?</summary>
+          <p>Yes. We work inside your cloud accounts, identity provider, code repositories, and compliance platform. If you don't have a tool yet, we recommend one and set it up. We don't resell software.</p>
+        </details>
+        <details class="reveal">
+          <summary>What does it cost?</summary>
+          <p>It depends on scope, and we'll give you a fixed number after the free assessment. Pricing is by the project or by the month, never by the hour.</p>
+        </details>
       </div>
     </div>
   </section>
@@ -405,8 +396,8 @@
         <div class="contact-side">
           <div>
             <p class="eyebrow">Contact</p>
-            <h2>Tell us what's slowing your team down.</h2>
-            <p class="lede" style="margin-top:18px">We'll reply within one business day with a few questions or a time to talk. No sales deck.</p>
+            <h2>Have a security review coming up?</h2>
+            <p class="lede" style="margin-top:18px">Tell us where you are and what's blocking you. We'll reply within one business day to set up a free assessment.</p>
           </div>
           <div class="contact-line">
             <b>Email</b>
@@ -418,7 +409,7 @@
           </div>
           <div class="contact-line">
             <b>Based in</b>
-            <div class="val">Marysville, Washington · working with teams across the US</div>
+            <div class="val">Seattle area, Washington · working with startups across the US</div>
           </div>
         </div>
 
@@ -429,7 +420,7 @@
               <input id="f-name" name="name" type="text" autocomplete="name" required>
             </div>
             <div class="field">
-              <label for="f-org">Organization</label>
+              <label for="f-org">Company</label>
               <input id="f-org" name="org" type="text" autocomplete="organization">
             </div>
           </div>
@@ -440,16 +431,17 @@
           <div class="field">
             <label for="f-type">What do you need?</label>
             <select id="f-type" name="type">
-              <option>Custom software</option>
-              <option>EHR or data integration</option>
-              <option>Revenue-cycle automation</option>
-              <option>Security or HIPAA review</option>
+              <option>Security Sprint</option>
+              <option>SOC 2 / ISO 27001 readiness</option>
+              <option>Help with a security questionnaire</option>
+              <option>Growth engineering</option>
+              <option>Fractional security partner</option>
               <option>Not sure yet</option>
             </select>
           </div>
           <div class="field">
-            <label for="f-msg">A few sentences about the problem</label>
-            <textarea id="f-msg" name="message" required placeholder="What's the manual step, the system that won't talk to the other one, or the review you need done?"></textarea>
+            <label for="f-msg">What's going on?</label>
+            <textarea id="f-msg" name="message" required placeholder="Company stage, what a customer is asking for, or the deadline you're working against."></textarea>
           </div>
           <div class="form-foot">
             <small>We don't share your details and we won't add you to a list.</small>
@@ -465,10 +457,10 @@
 
 <footer class="site-footer">
   <div class="wrap footer-grid">
-    <div>© <span id="year">2026</span> KRES Solutions LLC · Marysville, WA</div>
+    <div>© <span id="year">2026</span> KRES Solutions LLC · Washington</div>
     <ul class="footer-links">
       <li><a href="https://www.linkedin.com/company/kres-solutions" target="_blank" rel="noopener">LinkedIn</a></li>
-      <li><a href="https://github.com/kkhanna-dev" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="#contact">Contact</a></li>
       <li><a href="#top">Back to top</a></li>
     </ul>
   </div>
