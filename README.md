@@ -7,6 +7,7 @@ site/                      everything that gets published
   index.html               home page            -> kressolutions.com/
   services/index.html      services page        -> kressolutions.com/services/
   about/index.html         about page           -> kressolutions.com/about/
+  careers/index.html       careers page         -> kressolutions.com/careers/
   contact/index.html       contact page         -> kressolutions.com/contact/
   404.html                 not-found page
   assets/site.css          all styles
@@ -14,13 +15,13 @@ site/                      everything that gets published
   assets/fonts/            self-hosted fonts (SIL Open Font License)
   .well-known/security.txt vulnerability reporting contact (RFC 9116)
   robots.txt, sitemap.xml
-tools/                     source pages for og.png and apple-touch-icon.png (not published)
+tools/                     source pages for og.png, apple-touch-icon.png, and the LinkedIn banner (not published)
 .github/workflows/deploy.yml   publishes site/ to GitHub Pages on every push to main
 ```
 
 ## Editing
 
-Each page is a complete HTML file. The header and footer are repeated in every page, so if you change the navigation or footer, change it in all five HTML files.
+Each page is a complete HTML file. The header and footer are repeated in every page, so if you change the navigation or footer, change it in all six HTML files.
 
 After editing CSS or JS, bump the `?v=` number on the `site.css` and `site.js` links in every page so browsers fetch the new file.
 
