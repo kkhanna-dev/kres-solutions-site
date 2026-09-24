@@ -38,21 +38,29 @@ Then turn on Pages once:
 2. Under **Build and deployment**, set **Source** to **GitHub Actions**
 3. Go to the **Actions** tab. The "Deploy to GitHub Pages" run should already be there (it started on the push). If it was skipped, open it and click **Re-run all jobs**.
 
-The site goes live at `https://kkhanna-dev.github.io/kres-solutions-site/` a minute or two later. Every later push to `main` redeploys.
+The site is served at `https://kressolutions.com` (custom domain set in Settings → Pages). Every later push to `main` redeploys.
 
-## Custom domain (when you have one)
+## Custom domain
 
-1. Buy the domain (Cloudflare Registrar or Porkbun are cheap and don't upsell). `kressolutions.com` or `kres.solutions` are the obvious picks if available.
-2. At the DNS provider, add:
-   - `A` records for the root (`@`) pointing at `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
-   - `CNAME` record for `www` pointing at `kkhanna-dev.github.io`
-3. In the repo, add a file named `CNAME` containing only the domain, e.g. `kressolutions.com`, commit and push.
-4. Repo → Settings → Pages → **Custom domain**: enter the domain, save, then tick **Enforce HTTPS** once the certificate shows up (up to an hour).
-5. Update the four URLs that mention `kkhanna-dev.github.io/kres-solutions-site` (in `index.html` head, `404.html`, `robots.txt`, `sitemap.xml`) to the new domain. Also drop the `/kres-solutions-site` prefix in `404.html` links.
+The site runs on `kressolutions.com`, registered through Cloudflare Registrar.
+
+DNS records in Cloudflare (all set to **DNS only**, grey cloud):
+
+| Type  | Name | Content |
+|-------|------|---------|
+| A     | @    | 185.199.108.153 |
+| A     | @    | 185.199.109.153 |
+| A     | @    | 185.199.110.153 |
+| A     | @    | 185.199.111.153 |
+| CNAME | www  | kkhanna-dev.github.io |
+
+In the repo, Settings → Pages → Custom domain is `kressolutions.com` with **Enforce HTTPS** on. The `CNAME` file in this repo is kept for reference; with an Actions deploy, GitHub reads the domain from Settings.
+
+Company email `info@kressolutions.com` forwards to Gmail through Cloudflare Email Routing.
 
 ## Contact form
 
-Right now the form builds an email and opens the visitor's mail app (no backend needed, works on Pages). Address is set in `assets/main.js` (`TO`) and in the Contact section of `index.html`.
+Right now the form builds an email and opens the visitor's mail app (no backend needed, works on Pages). Address (`info@kressolutions.com`) is set in `assets/main.js` (`TO`) and in the Contact section of `index.html`.
 
 To make it a real hosted form, sign up at [formspree.io](https://formspree.io) (free tier is fine), create a form, then in `index.html` change
 
@@ -73,7 +81,6 @@ Everything is in `index.html`, top to bottom in the same order as the page. Sear
 Things to check before sharing widely:
 
 - Rishi's bio in the About section is a placeholder. Replace it with his real one-liner and add his LinkedIn.
-- The contact email is Kartik's personal dev address. Swap for a company address once the domain exists (Cloudflare Email Routing forwards `hello@yourdomain` to Gmail for free).
 - The Experience section describes engagements the founders delivered as employees of other companies without naming them. Keep it that way unless you have permission to name clients.
 
 ## Local preview

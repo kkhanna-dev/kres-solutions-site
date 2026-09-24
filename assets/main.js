@@ -67,7 +67,7 @@
   // To switch to a hosted form backend (Formspree, Basin, Netlify Forms), see README.md.
   var form = document.getElementById('contact-form');
   var status = document.getElementById('form-status');
-  var TO = 'kkhanna.dev@gmail.com';
+  var TO = 'info@kressolutions.com';
   if (form) {
     form.addEventListener('submit', function (ev) {
       ev.preventDefault();
