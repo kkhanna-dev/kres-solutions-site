@@ -80,7 +80,6 @@ Everything is in `index.html`, top to bottom in the same order as the page. Sear
 
 Things to check before sharing widely:
 
-- Rishi's bio in the About section is a placeholder. Replace it with his real one-liner and add his LinkedIn.
 - The Experience section describes engagements the founders delivered as employees of other companies without naming them. Keep it that way unless you have permission to name clients.
 
 ## Local preview
