@@ -10,7 +10,7 @@
   <link rel="canonical" href="https://kressolutions.com/">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
-  <meta name="theme-color" content="#ffffff">
+  <meta name="theme-color" content="#0f1518">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="KRES Solutions">
   <meta property="og:title" content="KRES Solutions">
@@ -20,8 +20,8 @@
   <meta name="twitter:card" content="summary_large_image">
   <link rel="preload" href="/assets/fonts/source-serif-4-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/public-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="/assets/site.css?v=4">
-  <script src="/assets/site.js?v=4" defer></script>
+  <link rel="stylesheet" href="/assets/site.css?v=5">
+  <script src="/assets/site.js?v=5" defer></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"KRES Solutions LLC","url":"https://kressolutions.com/","logo":"https://kressolutions.com/assets/favicon.svg","email":"info@kressolutions.com","description":"Security assessments, SOC 2 readiness, enterprise sales support, and technology consulting for startups.","foundingDate":"2024-12","address":{"@type":"PostalAddress","addressLocality":"Marysville","addressRegion":"WA","addressCountry":"US"},"areaServed":"US","sameAs":["https://www.linkedin.com/company/kres-solutions"]}</script>
 </head>
 <body>
@@ -34,7 +34,7 @@
         <ul>
           <li><a href="/services/">Services</a></li>
           <li><a href="/about/">About</a></li>
-          <li><a href="/contact/">Contact</a></li>
+          <li class="nav-button"><a href="/contact/">Get in touch</a></li>
         </ul>
       </nav>
     </div>
@@ -42,49 +42,80 @@
 
   <main id="main" tabindex="-1">
     <section class="hero">
-      <div class="container">
-        <h1>Security and sales support for growing software companies.</h1>
-        <p class="lead">KRES Solutions is a consulting firm in the Seattle area. We work with startups that are beginning to sell to larger customers and need help with what comes with it: the customer's security review, and a sales process built for enterprise buyers.</p>
-        <div class="actions">
-          <a class="button" href="/contact/">Get in touch</a>
-          <a class="button button-secondary" href="/services/">Our services</a>
+      <div class="container hero-grid">
+        <div>
+          <h1>Security and sales support for growing software companies.</h1>
+          <p class="lead">KRES Solutions helps startups sell to larger customers. We get you through the customer's security review and build a sales process that holds up with enterprise buyers.</p>
+          <div class="actions">
+            <a class="button" href="/contact/">Get in touch</a>
+            <a class="button button-quiet" href="/services/">Our services</a>
+          </div>
         </div>
+        <aside class="report" aria-label="Sample security summary">
+          <div class="report-head">
+            <h2>Security summary</h2>
+            <span>Sample deliverable</span>
+          </div>
+          <ul>
+            <li>Multi-factor authentication on all accounts <span class="status status-done">Done</span></li>
+            <li>Production access limited and reviewed <span class="status status-done">Done</span></li>
+            <li>Backups tested and restorable <span class="status status-done">Done</span></li>
+            <li>Secrets removed from source code <span class="status status-done">Done</span></li>
+            <li>Alerts on admin and login activity <span class="status status-progress">In progress</span></li>
+            <li>Incident response plan <span class="status status-planned">Planned</span></li>
+          </ul>
+          <p class="report-foot">Every assessment ends with a summary like this that you can share with customers.</p>
+        </aside>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
-        <h2>What we do</h2>
-        <div class="columns">
-          <div>
+        <div class="section-head">
+          <h2>What we do</h2>
+          <p>Two things usually slow down a startup's first large deals: the security review and the sales process. We work on both.</p>
+        </div>
+        <div class="cards">
+          <div class="card">
             <h3>Security assessments</h3>
-            <p>We review your cloud accounts, code, and access controls, then fix the highest-risk problems. You get a written summary you can share with customers.</p>
+            <p>We review your cloud accounts, code, and access controls, then fix the highest-risk problems before a customer finds them.</p>
           </div>
-          <div>
+          <div class="card">
             <h3>SOC 2 and ISO 27001 readiness</h3>
-            <p>We work through the framework with you, write the policies, put the controls in place, and support you through the audit with an independent firm.</p>
+            <p>We write the policies, put the controls in place, and support you through the audit with an independent firm.</p>
           </div>
-          <div>
+          <div class="card">
             <h3>Sales and go-to-market</h3>
-            <p>We help you decide who to sell to, set up a pipeline your team will keep up with, and work alongside you on proposals, RFPs, and procurement.</p>
+            <p>We help you pick the right customers, set up a pipeline your team will keep up with, and work alongside you on proposals and procurement.</p>
           </div>
-          <div>
+          <div class="card">
             <h3>Technology consulting</h3>
-            <p>Architecture reviews, vendor selection, and program management for launches and migrations, from people who have run large technology programs.</p>
+            <p>Architecture reviews, vendor selection, and program management for launches and migrations.</p>
           </div>
         </div>
-        <p class="more"><a href="/services/">More about our services</a></p>
+        <p class="more"><a href="/services/">See all services</a></p>
       </div>
     </section>
 
-    <section class="section section-alt">
-      <div class="container split">
-        <h2>How an engagement works</h2>
-        <div class="prose">
-          <p>Every engagement starts with a free call about where your company is and what is getting in the way. If we can help, we follow up with a short written proposal that sets out the scope, a fixed price, and a timeline.</p>
-          <p>We do the work inside your own accounts and tools and share progress every week. When we finish, you get documentation for everything we set up, and you keep full ownership of it.</p>
-          <p>If you don't need something yet, we will tell you.</p>
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>How an engagement works</h2>
         </div>
+        <ol class="steps">
+          <li>
+            <h3>A free first call</h3>
+            <p>We talk through where your company is and what is getting in the way. If you don't need us yet, we'll say so.</p>
+          </li>
+          <li>
+            <h3>A written proposal</h3>
+            <p>You get the scope, a fixed price, and a timeline in writing before any work starts.</p>
+          </li>
+          <li>
+            <h3>The work and handoff</h3>
+            <p>We work inside your own tools with weekly updates, then hand over documentation for everything we set up.</p>
+          </li>
+        </ol>
       </div>
     </section>
 
@@ -92,7 +123,11 @@
       <div class="container split">
         <h2>Who we are</h2>
         <div class="prose">
-          <p>KRES Solutions was founded in 2024 by Kartik Khanna and Rishi Khanna. We keep the firm small and take on a few clients at a time, so the people you speak with on the first call are the people who do the work.</p>
+          <p>KRES Solutions is a small firm based near Seattle, founded in 2024. We take on a few clients at a time, so the people on your first call are the people who do the work.</p>
+          <div class="founders-inline">
+            <div><b>Kartik Khanna</b><span>Security and Engineering</span></div>
+            <div><b>Rishi Khanna</b><span>Sales and Consulting</span></div>
+          </div>
           <p class="more"><a href="/about/">About the firm</a></p>
         </div>
       </div>
@@ -100,8 +135,10 @@
 
     <section class="closing">
       <div class="container">
-        <h2>Tell us what you're working on.</h2>
-        <p>Send a short note to <a href="mailto:info@kressolutions.com">info@kressolutions.com</a>. We reply within one business day.</p>
+        <div>
+          <h2>Tell us what you're working on.</h2>
+          <p>Email <a href="mailto:info@kressolutions.com">info@kressolutions.com</a> and we'll reply within one business day. The first call is free.</p>
+        </div>
         <div class="actions">
           <a class="button" href="/contact/">Get in touch</a>
         </div>
