@@ -259,3 +259,9 @@ p + p { margin-top: 1em; }
 .not-found p { margin-top: 1rem; color: var(--ink-2); }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+/* Hero headline: lead with the simple line in orange, detail in white below */
+.hero-title { color: var(--accent); font-size: clamp(2.3rem, 4vw, 3.05rem); line-height: 1.05; text-wrap: pretty; }
+.hero-sub { margin-top: 16px; font-family: var(--font-display); font-weight: 600; font-size: clamp(1.3rem, 2.1vw, 1.7rem); line-height: 1.25; letter-spacing: -0.015em; color: var(--ink); max-width: 30ch; text-wrap: balance; }
+.hero-copy .lede { margin-top: 18px; }
+.nowrap { white-space: nowrap; }
